@@ -2,17 +2,17 @@
 # https://www.acmicpc.net/problem/11047
 
 a, b = map(int, input().split())
-coin = []
+coin_list = []
 num = 0
 
 for i in range(a):
-    coin.append(int(input()))
+    coin_list.append(int(input()))
 
-coin.sort(reverse=True)
+coin_list.sort(reverse=True)
 
-for i in range(len(coin)):
-    if b % coin[i] != b:
-        num += b//coin[i]
-        b -= b//coin[i] * coin[i]
+for coin in coin_list:
+    coin_num = b // coin
+    num += coin_num
+    b -= coin_num * coin
 
 print(num)
