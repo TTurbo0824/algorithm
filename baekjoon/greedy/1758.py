@@ -1,19 +1,20 @@
 # 백준 온라인 저지 1758
 # https://www.acmicpc.net/problem/1758
+import sys
 
 n = int(input())
-tip_list = []
+
+total_tip = []
+count = 0
+
+for _ in range(n):
+    total_tip.append(int(sys.stdin.readline().strip()))
+
+total_tip.sort(reverse=True)
+
 for i in range(n):
-    tip = int(input())
-    tip_list.append(tip)
-
-tip_list.sort(reverse=True)
-total = 0
-
-for i in range(len(tip_list)):
-    real_tip = tip_list[i] - ((i + 1 - 1))
-    if real_tip <= 0:
-        break
-    total += real_tip
-
-print(total)
+    tip = total_tip[i] - i
+    if tip > 0:
+        count += tip
+        
+print(count)
