@@ -1,5 +1,6 @@
 # 백준 온라인 저지 1758
 # https://www.acmicpc.net/problem/1758
+
 import sys
 
 n = int(input())
@@ -16,5 +17,5 @@ for i in range(n):
     tip = total_tip[i] - i
     if tip > 0:
         count += tip
-        
+
 print(count)
