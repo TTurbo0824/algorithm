@@ -1,4 +1,4 @@
-# 백준 온라인 저지 1158번
+# 백준 온라인 저지 1158번: 요세푸스 문제
 # https://www.acmicpc.net/problem/1158
 
 n, k = map(int, input().split())

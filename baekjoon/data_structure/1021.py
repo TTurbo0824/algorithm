@@ -1,4 +1,4 @@
-# 백준 온라인 저지 1021번
+# 백준 온라인 저지 1021번: 회전하는 큐
 # https://www.acmicpc.net/problem/1021
 
 n, m = map(int, input().split())

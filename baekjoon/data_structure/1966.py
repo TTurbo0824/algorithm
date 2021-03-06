@@ -1,4 +1,4 @@
-# 백준 온라인 저지 1966번
+# 백준 온라인 저지 1966번: 프린터 큐
 # https://www.acmicpc.net/problem/1966
 
 test = int(input())

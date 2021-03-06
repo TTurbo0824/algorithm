@@ -1,4 +1,4 @@
-# 백준 온라인 저지 1758
+# 백준 온라인 저지 1758번: 알바생 강호
 # https://www.acmicpc.net/problem/1758
 
 import sys

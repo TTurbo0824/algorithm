@@ -1,4 +1,4 @@
-# 백준 온라인 저지 4195번
+# 백준 온라인 저지 4195번: 친구 네트워크
 # https://www.acmicpc.net/problem/4195
 
 def find(x):
