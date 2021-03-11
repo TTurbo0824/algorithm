@@ -1,4 +1,4 @@
-# 백준 파이썬 9012번
+# 백준 파이썬 9012번: 괄호
 # https://www.acmicpc.net/problem/9012
 
 import sys
