@@ -1,5 +1,5 @@
 # 백준 온라인 저지 18512번: 점프 점프
-# www.acmicpc.net/problem/18512
+# https://www.acmicpc.net/problem/18512
 
 x, y , p1, p2 = map(int,input().split())
 
