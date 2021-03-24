@@ -1,4 +1,4 @@
-# 백준 온라인 저지 11047번
+# 백준 온라인 저지 11047번: 동전 0
 # https://www.acmicpc.net/problem/11047
 
 a, b = map(int, input().split())

@@ -1,4 +1,4 @@
-# 백준 온라인 저지 11399번
+# 백준 온라인 저지 11399번: ATM
 # https://www.acmicpc.net/problem/11399
 
 n = int(input())

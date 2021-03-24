@@ -1,4 +1,4 @@
-# 백준 온라인 저지 1946번
+# 백준 온라인 저지 1946번: 신입 사원
 # https://www.acmicpc.net/problem/1946
 
 import sys

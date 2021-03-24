@@ -1,4 +1,4 @@
-# 백준 온라인 저지 1931번
+# 백준 온라인 저지 1931번: 회의실 배정
 # https://www.acmicpc.net/problem/1931
 
 import sys
