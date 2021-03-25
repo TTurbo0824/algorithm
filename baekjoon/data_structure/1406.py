@@ -1,4 +1,4 @@
-# 백준 온라인 저지 1158번
+# 백준 온라인 저지 1406번: 에디터
 # https://www.acmicpc.net/problem/1406
 
 import sys
