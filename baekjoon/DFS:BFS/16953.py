@@ -3,20 +3,20 @@
 
 from collections import deque
 
-N, K = map(int, input().split())
+A, B = map(int, input().split())
 
 answer = -1
 
-queue = deque([(N, 1)])
+queue = deque([(A, 1)])
 
 while queue:
     current, count = queue.popleft()
-    if current == K:
+    if current == B:
         answer = count
         break
-    if current * 2 <= K:
+    if current * 2 <= B:
         queue.append((current * 2, count + 1))
-    if current * 10 + 1 <= K:
+    if current * 10 + 1 <= B:
         queue.append((current * 10 + 1, count + 1))
 
 print(answer)
