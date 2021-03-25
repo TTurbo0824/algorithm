@@ -1,4 +1,4 @@
-# 백준 온라인 저지 1874번
+# 백준 온라인 저지 1874번: 스택 수열
 # https://www.acmicpc.net/problem/1874
 
 n = int(input())

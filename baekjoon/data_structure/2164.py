@@ -1,4 +1,4 @@
-# 백준 온라인 저지 2164번
+# 백준 온라인 저지 2164번: 카드2
 # https://www.acmicpc.net/problem/2164
 
 import collections
