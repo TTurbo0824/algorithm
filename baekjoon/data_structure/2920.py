@@ -1,6 +1,22 @@
 # 백준 온라인 저지 2920번: 음계
 # https://www.acmicpc.net/problem/2920
 
+'''
+# Solution 1
+
+n = list(map(int, input().split(' ')))
+asc = sorted(n)
+des = sorted(n, reverse=True)
+
+if n == asc:
+    print("ascending")
+elif n == des:
+    print("descending")
+else: print("mixed")
+'''
+
+# Solution 2
+
 # map을 이용해 각각의 원소를 int형으로 바꿔준다
 n = list(map(int, input().split(' ')))
 
