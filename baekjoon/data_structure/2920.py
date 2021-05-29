@@ -1,9 +1,10 @@
 # 백준 온라인 저지 2920번: 음계
 # https://www.acmicpc.net/problem/2920
 
-'''
+
 # Solution 1
 
+'''
 n = list(map(int, input().split(' ')))
 asc = sorted(n)
 des = sorted(n, reverse=True)
