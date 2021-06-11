@@ -11,9 +11,9 @@ for i in range(int(input())) :
     print('Case %d:' % (i + 1))
     for j in range(1, 7) :
         if 1 <= n - j <= 6 and n - j >= j:
-            print('(%d, %d)' % (j, n - j))
+            print('(%d,%d)' % (j, n - j))
 
-# Solution2
+# Solution 2
 
 '''
 for i in range(int(input())):
