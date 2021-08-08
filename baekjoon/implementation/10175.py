@@ -1,3 +1,6 @@
+# 백준 온라인 저지 10175번: Dominant Species
+# https://www.acmicpc.net/problem/10175
+
 import sys
 
 input = sys.stdin.readline
