@@ -2,4 +2,4 @@
 # https://www.acmicpc.net/problem/1212
 
 n = int(int(input(), 8))
-print(format(n, 'b'))
+print(format(n, "b"))

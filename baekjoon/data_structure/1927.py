@@ -1,6 +1,6 @@
 # 백준 온라인 저지 1927번: 최소 힙
-# https://www.acmicpc.net/problem/1927 
- 
+# https://www.acmicpc.net/problem/1927
+
 import sys
 import heapq
 

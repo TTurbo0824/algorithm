@@ -18,4 +18,5 @@ def dfs(start, infected):
             infected = dfs(search_node, infected)
     return infected
 
+
 print(len(dfs(1, [])) - 1)

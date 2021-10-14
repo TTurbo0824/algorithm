@@ -17,8 +17,8 @@ for i in range(n):
 for i in range(m):
     for j in range(n):
         lst[i][1] += votes[j][i]
-        
+
 lst.sort(key=lambda x: -x[1])
 
 for i, j in lst:
-    print(i + 1, end=' ')
+    print(i + 1, end=" ")

@@ -2,6 +2,7 @@
 # https://www.acmicpc.net/problem/15953
 
 import sys
+
 input = sys.stdin.readline
 
 first_place = [1, 3, 6, 10, 15, 21]
@@ -19,7 +20,7 @@ for _ in range(int(input())):
             a_money = [0]
         elif a <= f:
             a_money.append(first_money[first_place.index(f)])
-        
+
     for s in second_place:
         if b > 31 or b == 0:
             b_money = [0]

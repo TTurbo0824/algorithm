@@ -5,6 +5,7 @@ a = int(input())
 
 arr = list(map(int, input().split()))
 
+
 def prime(num):
     if num == 1:
         return False
@@ -14,6 +15,7 @@ def prime(num):
         if num % i == 0:
             return False
     return True
+
 
 count = 0
 

@@ -7,7 +7,7 @@ input = sys.stdin.readline
 
 for _ in range(int(input())):
     location, species = map(str, input().split())
-    
+
     bobcat = species.count("B") * 2
     coyote = species.count("C")
     lion = species.count("M") * 4
@@ -16,19 +16,19 @@ for _ in range(int(input())):
     animals = [bobcat, coyote, lion, wolf]
 
     if animals.count(max(animals)) != 1:
-        print("%s: There is no dominant species"%location)
+        print("%s: There is no dominant species" % location)
     else:
         animals = {
             bobcat: "Bobcat",
             coyote: "Coyote",
             lion: "Mountain Lion",
-            wolf: "Wolf"
+            wolf: "Wolf",
         }
 
         dominant = animals.get(max(animals))
-        print("%s: The %s is the dominant species"%(location, dominant))
+        print("%s: The %s is the dominant species" % (location, dominant))
 
-'''
+"""
 for _ in range(int(input())):
     a, b=input().split()
     print(a+': ', end='')
@@ -38,4 +38,4 @@ for _ in range(int(input())):
         print('There is no dominant species')
     else:
         print('The '+['Bobcat', 'Coyote', 'Mountain Lion', 'Wolf'][c.index(d)]+' is the dominant species')
-'''
+"""

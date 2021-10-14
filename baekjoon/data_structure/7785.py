@@ -2,6 +2,7 @@
 # https://www.acmicpc.net/problem/7785
 
 import sys
+
 input = sys.stdin.readline
 
 working = {}
@@ -11,7 +12,7 @@ for _ in range(int(input())):
         working[a] = 1
     elif b == "leave":
         working[a] = 0
-        
+
 answer = []
 
 for people in working:

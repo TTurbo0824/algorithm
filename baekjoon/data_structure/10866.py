@@ -7,7 +7,7 @@ n = int(input())
 deque = []
 
 for _ in range(n):
-    a = sys.stdin.readline().split()    
+    a = sys.stdin.readline().split()
     if a[0] == "push_front":
         deque.insert(0, a[1])
     elif a[0] == "push_back":

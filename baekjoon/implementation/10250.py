@@ -10,5 +10,5 @@ for _ in range(int(input())):
         room = n // h
     else:
         floor = (n % h) * 100
-        room = n//h + 1
+        room = n // h + 1
     print(floor + room)

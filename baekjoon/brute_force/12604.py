@@ -8,8 +8,8 @@ input = sys.stdin.readline
 for t in range(1, int(input()) + 1):
     credit = int(input())
     n = int(input())
-    items = list(map(int,input().split()))
-    
+    items = list(map(int, input().split()))
+
     x = credit // 2
 
     if x * 2 == credit and items.count(x) == 2:
@@ -17,10 +17,10 @@ for t in range(1, int(input()) + 1):
         b = items.index(x, a + 1)
     else:
         md = dict(zip(items, range(n)))
-        
+
         for a, x in enumerate(items):
             y = credit - x
-            if x != y and y in md: 
+            if x != y and y in md:
                 b = md[y]
                 break
-    print('Case #%d: %d %d'%(t, a + 1, b + 1))
+    print("Case #%d: %d %d" % (t, a + 1, b + 1))

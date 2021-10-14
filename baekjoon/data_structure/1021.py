@@ -9,7 +9,7 @@ count = 0
 for i in range(m):
     q_len = len(q)
     q_index = q.index(s[i])
-    if q_index < q_len - q_index: # 해당 q가 앞쪽에 가까운지, 아니면 뒷쪽에 가까운지 판단
+    if q_index < q_len - q_index:  # 해당 q가 앞쪽에 가까운지, 아니면 뒷쪽에 가까운지 판단
         while True:
             if q[0] == s[i]:
                 del q[0]

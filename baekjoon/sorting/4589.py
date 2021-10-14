@@ -6,7 +6,7 @@ print("Gnomes:")
 
 for _ in range(n):
     gnomes = list(map(int, input().split()))
-    if gnomes == sorted(gnomes) or gnomes == sorted(gnomes, key = lambda x : -x):
+    if gnomes == sorted(gnomes) or gnomes == sorted(gnomes, key=lambda x: -x):
         print("Ordered")
     else:
         print("Unordered")

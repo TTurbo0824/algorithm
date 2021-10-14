@@ -2,4 +2,4 @@
 # https://www.acmicpc.net/problem/1373
 
 n = int(int(input(), 2))
-print(format(n, 'o'))
+print(format(n, "o"))

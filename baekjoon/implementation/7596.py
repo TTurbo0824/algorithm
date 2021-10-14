@@ -7,17 +7,17 @@ count = 0
 
 while True:
     n = int(sys.stdin.readline())
-    
+
     if n == 0:
         break
-    
+
     songs = []
-    
+
     for _ in range(n):
         song = sys.stdin.readline().rstrip()
         songs.append(song)
 
     songs.sort()
     count += 1
-    
-    print(count, *songs, sep="\n")  
+
+    print(count, *songs, sep="\n")

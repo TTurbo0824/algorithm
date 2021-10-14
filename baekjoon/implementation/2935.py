@@ -3,7 +3,7 @@
 
 # Solution 1
 
-s = ''
+s = ""
 for _ in range(3):
     s += input()
 
@@ -12,6 +12,6 @@ print(eval(s))
 
 # Solution 2
 
-'''
+"""
 print(eval(input()+input()+input()))
-'''
+"""

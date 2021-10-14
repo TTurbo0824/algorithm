@@ -12,6 +12,6 @@ for i in range(1, n + 1):
     count += 1
 
 if count % 2 != 1:
-    print(count - (num - n), '/', num - n + 1, sep = '')
+    print(count - (num - n), "/", num - n + 1, sep="")
 elif count % 2 == 1:
-    print(num - n + 1, '/', count - (num - n), sep = '')
+    print(num - n + 1, "/", count - (num - n), sep="")

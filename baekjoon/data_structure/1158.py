@@ -13,6 +13,6 @@ for i in range(n):
     elif len(arr) <= num:
         num = num % len(arr)
         answer.append(arr.pop(num))
-        num += k -1
-        
-print("<", ', '.join(str(i) for i in answer), ">", sep = '')
+        num += k - 1
+
+print("<", ", ".join(str(i) for i in answer), ">", sep="")

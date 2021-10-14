@@ -3,7 +3,7 @@
 
 # Solution 1
 
-'''
+"""
 while True:
     line = input()
     
@@ -29,25 +29,25 @@ while True:
         else:
             newLine += character
     print(newLine)
-'''
+"""
 
 # Solution 2
 
 while True:
     line = input()
-    
-    if line == '#':
+
+    if line == "#":
         break
-    
-    newLine = ''
-    
-    old = [' ', '!', '$', '%', '(', ')', '*']
-    new = ['%20', '%21', '%24', '%25', '%28', '%29', '%2a']
-    
+
+    newLine = ""
+
+    old = [" ", "!", "$", "%", "(", ")", "*"]
+    new = ["%20", "%21", "%24", "%25", "%28", "%29", "%2a"]
+
     for character in line:
         if character in old:
             newLine += new[old.index(character)]
         else:
             newLine += character
-            
+
     print(newLine)

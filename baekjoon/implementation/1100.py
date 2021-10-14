@@ -6,7 +6,7 @@ board = []
 for _ in range(8):
     row = list(input())
     board.append(row)
-    
+
 cnt = 0
 
 for i in range(8):

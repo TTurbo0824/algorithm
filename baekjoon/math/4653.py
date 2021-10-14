@@ -13,7 +13,7 @@ while True:
 
     lefthour = 0
     answer = 0
-    
+
     for _ in range(n):
         mph, hour = map(int, input().split())
         answer += mph * (hour - lefthour)

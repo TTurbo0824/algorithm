@@ -2,8 +2,9 @@
 # https://www.acmicpc.net/problem/9713
 
 import sys
+
 input = sys.stdin.readline
 
 for _ in range(int(input())):
     n = int(input())
-    print(((n//2)+1)**2)
+    print(((n // 2) + 1) ** 2)

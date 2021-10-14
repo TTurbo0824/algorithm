@@ -3,13 +3,13 @@
 
 import sys
 
-v = ['a', 'e', 'i', 'o', 'u']
+v = ["a", "e", "i", "o", "u"]
 
 for _ in range(1, int(sys.stdin.readline()) + 1):
     kingdom = sys.stdin.readline().strip()
-    if kingdom[-1].lower() == 'y':
-        print('Case #%d: %s is ruled by %s.'%(_, kingdom, 'nobody'))
+    if kingdom[-1].lower() == "y":
+        print("Case #%d: %s is ruled by %s." % (_, kingdom, "nobody"))
     elif kingdom[-1].lower() in v:
-        print('Case #%d: %s is ruled by %s.'%(_, kingdom, 'a queen'))
+        print("Case #%d: %s is ruled by %s." % (_, kingdom, "a queen"))
     else:
-        print('Case #%d: %s is ruled by %s.'%(_, kingdom, 'a king'))
+        print("Case #%d: %s is ruled by %s." % (_, kingdom, "a king"))

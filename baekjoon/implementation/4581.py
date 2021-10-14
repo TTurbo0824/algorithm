@@ -3,15 +3,15 @@
 
 while True:
     votes = input()
-    
+
     if votes == "#":
         break
-        
+
     total = len(votes)
     yes = votes.count("Y")
     no = votes.count("N")
     absent = votes.count("A")
-    
+
     if absent >= total / 2:
         print("need quorum")
     elif yes > no:

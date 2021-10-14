@@ -10,11 +10,11 @@ for _ in range(int(input())):
     n = float(n)
 
     for el in arr:
-        if el == '#':
+        if el == "#":
             n -= 7
-        if el == '%':
+        if el == "%":
             n += 5
-        if el == '@':
+        if el == "@":
             n *= 3
 
     print(format(n, ".2f"))

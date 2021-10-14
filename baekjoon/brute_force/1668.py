@@ -1,6 +1,7 @@
 # 백준 온라인 저지 1668번: 트로피 진열
 # https://www.acmicpc.net/problem/1668
 
+
 def ascending(array):
     now = array[0]
     count = 1
@@ -9,6 +10,7 @@ def ascending(array):
             count += 1
             now = array[i]
     return count
+
 
 n = int(input())
 arr = []

@@ -3,11 +3,13 @@
 
 a, b = input().split()
 
+
 def reverse_num(num):
     arr = []
     for i in range(len(num)):
-        arr.append(num[len(num)-i-1])
+        arr.append(num[len(num) - i - 1])
     return int("".join(arr))
+
 
 new_a = reverse_num(a)
 new_b = reverse_num(b)

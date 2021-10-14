@@ -8,12 +8,12 @@ ET, ST, MT = map(int, input().split())
 while True:
     if ET == E and ST == S and MT == M:
         break
-        
+
     E += 1
     S += 1
     M += 1
     year += 1
-    
+
     if E >= 16:
         E -= 15
     if S >= 29:

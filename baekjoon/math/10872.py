@@ -9,7 +9,7 @@ print(factorial(int(input())))
 
 # Solution 2
 
-'''
+"""
 def fact(num):
     if num <= 1:
         return 1
@@ -18,4 +18,4 @@ def fact(num):
 
 n = int(input())
 print(fact(n))
-'''
+"""

@@ -17,5 +17,5 @@ for s in score:
         ans += count
     else:
         count = 0
-        
+
 print(ans)

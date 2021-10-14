@@ -7,10 +7,10 @@ input = sys.stdin.readline
 
 while True:
     total, c, r = map(int, input().split())
-    
+
     if (total, c, r) == (0, 0, 0):
         break
-    
+
     if c > total / 2:
         print(0)
     elif r < total / 2:

@@ -8,15 +8,15 @@ input = sys.stdin.readline
 # Solution 1
 
 for t in range(int(input())):
-    eq, ans = map(str, input().rstrip().split('='))
+    eq, ans = map(str, input().rstrip().split("="))
     if eval(eq) == int(ans):
-        print("Case %d: YES"%(t + 1))
+        print("Case %d: YES" % (t + 1))
     else:
-        print("Case %d: NO"%(t + 1))
+        print("Case %d: NO" % (t + 1))
 
 # Solution 2
 
-'''
+"""
 for t in range(int(input())):
     n, o, m, e, a = map(str, input().rstrip().split())
     n = int(n)
@@ -30,4 +30,4 @@ for t in range(int(input())):
         print("Case %d: YES"%(t + 1))
     else:
         print("Case %d: NO"%(t + 1))
-'''
+"""

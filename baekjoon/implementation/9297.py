@@ -15,10 +15,10 @@ for _ in range(int(input())):
     N = n1 % n2
 
     if I == 0 and N == 0:
-        print('Case %d: %d' % (count, 0))
+        print("Case %d: %d" % (count, 0))
     elif I == 0:
-        print('Case %d: %d/%d' % (count, N, n2))
+        print("Case %d: %d/%d" % (count, N, n2))
     elif N == 0:
-        print('Case %d: %d' % (count, I))
+        print("Case %d: %d" % (count, I))
     else:
-        print('Case %d: %d %d/%d' % (count, I, N, n2))
+        print("Case %d: %d %d/%d" % (count, I, N, n2))

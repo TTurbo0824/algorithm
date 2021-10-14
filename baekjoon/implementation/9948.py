@@ -7,9 +7,9 @@ input = sys.stdin.readline
 
 while True:
     day, month = map(str, input().strip().split())
-    
+
     months = ["September", "October", "November", "December"]
-    
+
     if day == "0" and month == "#":
         break
     elif day == "4" and month == "August":

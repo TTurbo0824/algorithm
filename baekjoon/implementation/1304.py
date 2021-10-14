@@ -5,6 +5,13 @@ import sys
 
 for _ in range(int(sys.stdin.readline())):
     s = sys.stdin.readline().strip()
-    
-    if s.find('0') == -1 and s[0].isdigit() and s[0] == s[1] and s[2:4].isdigit() and s[4].isupper() and s[5:8].isdigit():
+
+    if (
+        s.find("0") == -1
+        and s[0].isdigit()
+        and s[0] == s[1]
+        and s[2:4].isdigit()
+        and s[4].isupper()
+        and s[5:8].isdigit()
+    ):
         print(s)

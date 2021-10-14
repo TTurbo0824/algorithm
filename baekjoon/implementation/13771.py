@@ -7,8 +7,8 @@ input = sys.stdin.readline
 
 presents = []
 
-for _ in range(int(input())):    
+for _ in range(int(input())):
     presents.append(float(input()))
 
 presents.sort()
-print("%.2f"%presents[1])
+print("%.2f" % presents[1])

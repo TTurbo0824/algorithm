@@ -2,6 +2,7 @@
 # https://www.acmicpc.net/problem/9317
 
 import sys
+
 input = sys.stdin.readline
 
 while True:

@@ -8,7 +8,7 @@ index = 0
 result = 0
 
 while len(d) - index >= len(w):
-    if d[index: index + len(w)] == w:
+    if d[index : index + len(w)] == w:
         result += 1
         index += len(w)
     else:

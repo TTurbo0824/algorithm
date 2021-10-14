@@ -13,7 +13,7 @@ for _ in range(T):
     for i in range(0, N):
         Paper, Interview = map(int, sys.stdin.readline().split())
         people.append([Paper, Interview])
-    
+
     people = sorted(people, key=lambda x: x[0])
 
     best = people[0][1]

@@ -9,38 +9,41 @@ c, s = input().strip().split()
 
 # Solution 1
 
+
 def e(line):
     arr = [[0, 0]]
-    answer = ''
+    answer = ""
 
     for num in line:
         n = 1
         if arr[-1][0] != num:
-            arr.append([num, n]) 
+            arr.append([num, n])
         else:
             arr[-1][1] += 1
-    arr = arr[1:len(arr)]
+    arr = arr[1 : len(arr)]
 
     for i in arr:
         for j in i:
             answer += str(j)
     return answer
 
+
 def d(line):
-    answer = ''
+    answer = ""
     for i in range(len(line)):
         if i % 2 == 0:
-            answer += (line[i] * int(line[i+1]))
+            answer += line[i] * int(line[i + 1])
     return answer
 
-if c == 'E':
+
+if c == "E":
     print(e(s))
-elif c == 'D':
+elif c == "D":
     print(d(s))
 
 # Solution 2
 
-'''
+"""
 
 if c == 'E':
     base = None
@@ -66,4 +69,4 @@ else:
         v, k = s[i*2:i*2+2]
         answer += v*int(k)
     print(answer)
-'''
+"""

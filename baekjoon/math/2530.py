@@ -13,7 +13,7 @@ second += n
 if second >= 60:
     minute += second // 60
     second %= 60
-    
+
 if minute >= 60:
     hour += minute // 60
     minute %= 60

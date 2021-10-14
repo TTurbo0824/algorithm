@@ -2,6 +2,7 @@
 # https://www.acmicpc.net/problem/11724
 
 import sys
+
 sys.setrecursionlimit(10000)
 
 input = sys.stdin.readline
@@ -15,6 +16,7 @@ for _ in range(M):
     graph[a][b] = 1
     graph[b][a] = 1
 
+
 def dfs(current_node, foot_prints):
     foot_prints += [current_node]
     for search_node in range(len(graph[current_node])):
@@ -22,8 +24,9 @@ def dfs(current_node, foot_prints):
             foot_prints = dfs(search_node, foot_prints)
     return foot_prints
 
+
 answer = []
-count = 0 
+count = 0
 for i in range(1, len(graph)):
     if i not in answer:
         answer.extend(dfs(i, []))

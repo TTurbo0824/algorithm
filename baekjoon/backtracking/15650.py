@@ -3,6 +3,7 @@
 
 from itertools import combinations
 import sys
+
 input = sys.stdin.readline
 
 n, m = map(int, input().split())
@@ -10,4 +11,4 @@ n, m = map(int, input().split())
 p = combinations(range(1, n + 1), m)
 
 for i in p:
-    print(' '.join(map(str, i)))
+    print(" ".join(map(str, i)))

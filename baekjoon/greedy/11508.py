@@ -2,6 +2,7 @@
 # https://www.acmicpc.net/problem/11508
 
 import sys
+
 input = sys.stdin.readline
 
 N = int(input())
@@ -17,5 +18,5 @@ total = 0
 for i in range(N):
     if i % 3 != 2:
         total += arr[i]
-        
+
 print(total)

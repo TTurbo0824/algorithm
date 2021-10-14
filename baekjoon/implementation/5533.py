@@ -2,6 +2,7 @@
 # https://www.acmicpc.net/problem/5533
 
 import sys
+
 input = sys.stdin.readline
 
 N = int(input())
@@ -18,11 +19,13 @@ for _ in range(N):
     secondgame.append(second)
     thirdgame.append(third)
 
+
 def scoring(arr):
     for i in range(N):
         if arr.count(arr[i]) == 1:
             answer[i] += arr[i]
-            
+
+
 scoring(firstgame)
 scoring(secondgame)
 scoring(thirdgame)

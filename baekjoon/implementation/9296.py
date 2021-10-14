@@ -13,4 +13,4 @@ for _ in range(int(sys.stdin.readline())):
         if answer[i] != response[i]:
             score += 1
 
-    print('Case %d: %d' % (_ + 1, score))
+    print("Case %d: %d" % (_ + 1, score))

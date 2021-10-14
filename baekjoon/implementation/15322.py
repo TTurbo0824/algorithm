@@ -10,8 +10,8 @@ for _ in range(int(input())):
     nums.sort()
     print(2 * (nums[0] - 1))
 
-'''
+"""
 for _ in range(int(input())):
     n, m = map(int, input().split())
     print((min(n, m)- 1) * 2)
-'''
+"""

@@ -3,10 +3,11 @@
 
 from collections import deque
 
+
 def bfs(start, target):
     queue = deque()
     queue.append(start)
-    
+
     while queue:
         current = queue.popleft()
         if current == target:
@@ -17,7 +18,8 @@ def bfs(start, target):
                 graph[next_node] = graph[current] + 1
                 queue.append(next_node)
 
-MAX = 10 ** 5               
+
+MAX = 10 ** 5
 N, K = map(int, input().split())
 graph = [0] * (MAX + 1)
 bfs(N, K)

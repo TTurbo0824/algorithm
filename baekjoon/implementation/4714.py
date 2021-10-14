@@ -3,7 +3,7 @@
 
 # Solution 1
 
-'''
+"""
 while True:
     n = input()
     weight = format(float(n), ".2f")
@@ -13,7 +13,7 @@ while True:
         break
 
     print("Objects weighing", weight, "on Earth will weigh", newWeight, "on the moon.")
-'''
+"""
 
 # Solution 2
 
@@ -23,4 +23,7 @@ while True:
     if weight == -1:
         break
 
-    print("Objects weighing %.2f on Earth will weigh %.2f on the moon." % (weight, weight * 0.167))
+    print(
+        "Objects weighing %.2f on Earth will weigh %.2f on the moon."
+        % (weight, weight * 0.167)
+    )

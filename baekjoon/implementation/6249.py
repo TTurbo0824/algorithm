@@ -8,11 +8,11 @@ h = arr[2]
 
 for _ in range(n):
     dollar = int(input())
-    
+
     if dollar < p:
-        print('NTV: Dollar dropped by {} Oshloobs'.format(p - dollar))
+        print("NTV: Dollar dropped by {} Oshloobs".format(p - dollar))
     elif h < dollar:
-        print('BBTV: Dollar reached {} Oshloobs, A record!'.format(dollar))
+        print("BBTV: Dollar reached {} Oshloobs, A record!".format(dollar))
         h = dollar
-    
-    p = dollar    
+
+    p = dollar

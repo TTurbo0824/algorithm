@@ -13,7 +13,7 @@ card = 1
 
 for i in range(int(input())):
     command = list(map(str, input().split()))
-    
+
     if command[0] == "A" and command[1] == "L":
         cards.appendleft(card)
         card += 1
@@ -26,12 +26,12 @@ for i in range(int(input())):
     elif command[0] == "D" and command[1] == "R":
         for _ in range(int(command[2])):
             cards.pop()
-    
+
 print(*cards, sep="\n")
 
 # Solution 2
 
-'''
+"""
 import sys
 
 input = sys.stdin.readline
@@ -54,4 +54,4 @@ for _ in range(int(input())):
         cards = cards[0:len(cards) - int(command[2])]
 
 print(*cards, sep="\n")
-'''
+"""

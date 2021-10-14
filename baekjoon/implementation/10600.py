@@ -21,12 +21,12 @@ colors = {
     "Blue": [0, 0, 255],
     "Navy": [0, 0, 128],
     "Fuchsia": [255, 0, 255],
-    "Purple": [128, 0, 128]
+    "Purple": [128, 0, 128],
 }
 
 while True:
     r, g, b = map(int, input().split())
-    
+
     if r == g == b == -1:
         break
 
@@ -34,7 +34,7 @@ while True:
     val = list(colors.values())
 
     dist = []
-    
+
     for arr in val:
         dist.append(((arr[0] - r) ** 2 + (arr[1] - g) ** 2 + (arr[2] - b) ** 2) ** 0.5)
 

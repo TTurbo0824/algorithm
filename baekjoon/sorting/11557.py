@@ -2,6 +2,7 @@
 # https://www.acmicpc.net/problem/11557
 
 import sys
+
 input = sys.stdin.readline
 
 # Solution1
@@ -13,7 +14,7 @@ for t in range(int(input())):
 
 # Solution 2
 
-'''
+"""
 for _ in range(int(input())):
     ans = []
     for i in range(int(input())):
@@ -21,4 +22,4 @@ for _ in range(int(input())):
         ans.append(school)
     ans.sort(key=lambda x: -int(x[1]))
     print(ans[0][0])
-'''
+"""

@@ -20,7 +20,7 @@ print(total)
 
 # Solution 2
 
-'''
+"""
 p = [int(input()) for _ in range(n)]
 print(x * (n + 1) - sum(p))
-'''
+"""

@@ -10,12 +10,14 @@ for _ in range(M):
     graph[a][b] = 1
     graph[b][a] = 1
 
+
 def dfs(current_node, visited):
     visited += [current_node]
     for search_node in range(len(graph[current_node])):
         if graph[current_node][search_node] and search_node not in visited:
             visited = dfs(search_node, visited)
     return visited
+
 
 def bfs(start_node):
     queue = [start_node]
@@ -27,6 +29,7 @@ def bfs(start_node):
                 visited += [search_node]
                 queue += [search_node]
     return visited
+
 
 print(*dfs(V, []))
 print(*bfs(V))

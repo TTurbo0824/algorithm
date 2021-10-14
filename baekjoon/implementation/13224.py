@@ -6,17 +6,17 @@ moves = input()
 ball = [1, 0, 0]
 
 for m in moves:
-    if m == 'A':
+    if m == "A":
         tempL = ball[0]
         tempM = ball[1]
         ball[0] = tempM
         ball[1] = tempL
-    elif m == 'B':
+    elif m == "B":
         tempM = ball[1]
         tempR = ball[2]
         ball[1] = tempR
         ball[2] = tempM
-    elif m == 'C':
+    elif m == "C":
         tempL = ball[0]
         tempR = ball[2]
         ball[0] = tempR

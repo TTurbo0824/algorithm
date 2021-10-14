@@ -11,10 +11,10 @@ while True:
     s = input().strip()
     if s == "#":
         break
-    
+
     s = s.lower()
-    temp = ''
-    
+    temp = ""
+
     for ch in s:
         if ch.isalpha() or ch.isnumeric() or ch == " ":
             temp += ch
@@ -23,7 +23,7 @@ while True:
     result = []
 
     for word in temp:
-        if word not in result and word != '' and word.isnumeric() == False:
+        if word not in result and word != "" and word.isnumeric() == False:
             result.append(word)
 
     if count != 0:

@@ -21,6 +21,6 @@ for member, number in members.items():
 
 team.sort()
 if team:
-    print(*team, sep='')
+    print(*team, sep="")
 else:
     print("PREDAJA")

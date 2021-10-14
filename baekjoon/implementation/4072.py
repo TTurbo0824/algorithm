@@ -3,10 +3,10 @@
 
 while True:
     line = input()
-    
+
     if line == "#":
         break
-        
+
     arr = line.split(" ")
 
     for el in arr:

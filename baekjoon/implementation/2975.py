@@ -3,8 +3,8 @@
 
 while True:
     n1, t, n2 = map(str, input().split())
-    
-    if (n1, t, n2) == ('0', 'W', '0'):
+
+    if (n1, t, n2) == ("0", "W", "0"):
         break
 
     n1 = int(n1)
@@ -12,9 +12,9 @@ while True:
 
     # Solution 1
 
-    if t == 'W':
+    if t == "W":
         if n1 - n2 < -200:
-            print('Not allowed')
+            print("Not allowed")
             continue
         n1 -= n2
     else:
@@ -24,11 +24,11 @@ while True:
 
     # Solution 2
 
-    '''
+    """
     if t == 'W' and n1 - n2 >= -200:
         print(n1 - n2)
     elif t == 'W' and n1 - n2 < -200:
         print('Not allowed')
     elif t == 'D':
         print(n1 + n2)
-    '''
+    """

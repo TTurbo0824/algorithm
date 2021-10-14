@@ -7,7 +7,7 @@ input = sys.stdin.readline
 
 for _ in range(int(input())):
     n, m = map(int, input().split())
-    
+
     total = []
     candidates = [0] * n
 
@@ -18,5 +18,5 @@ for _ in range(int(input())):
     for i in range(m):
         for j in range(n):
             candidates[j] += total[i][j]
-    
+
     print(candidates.index(max(candidates)) + 1)

@@ -10,7 +10,7 @@ print(math.lcm(*map(int, input().split())))
 
 # Solution 2
 
-'''
+"""
 n, m = map(int, input().split())
 
 def gcd(a, b):
@@ -23,4 +23,4 @@ def lcm(a, b):
     return int(a * b / gcd(a, b))
 
 print(lcm(n, m))
-'''
+"""

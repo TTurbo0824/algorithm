@@ -2,6 +2,7 @@
 # https://www.acmicpc.net/problem/10984
 
 import sys
+
 input = sys.stdin.readline
 
 for _ in range(int(input())):
@@ -12,4 +13,4 @@ for _ in range(int(input())):
         credit += int(C)
         total += C * G
     GPA = total / credit
-    print(credit, '%.1f'%GPA)
+    print(credit, "%.1f" % GPA)

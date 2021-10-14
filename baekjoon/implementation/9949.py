@@ -6,21 +6,21 @@ count = 1
 while True:
     a, b = map(str, input().split())
 
-    if (a, b) == ('#', '#'):
+    if (a, b) == ("#", "#"):
         break
 
     for _ in range(int(input())):
         line = input()
-        answer = ''
+        answer = ""
 
         if _ == 0 and count == 1:
-            print('Case %d' % count)
+            print("Case %d" % count)
         elif _ == 0 and count != 1:
-            print('\nCase %d' % count)
+            print("\nCase %d" % count)
 
         for character in line:
             if character.lower() == a or character.lower() == b:
-                answer += '_'
+                answer += "_"
             else:
                 answer += character
         print(answer)

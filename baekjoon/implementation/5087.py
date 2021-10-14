@@ -3,20 +3,20 @@
 
 while True:
     k = input()
-    
+
     if k == "#":
         break
 
     cards = list(map(str, k.split()))
     cards.pop()
-    
+
     cscore = 0
     tscore = 0
 
     for card in cards:
-        if card == 'A':
+        if card == "A":
             card = 1
-        
+
         if int(card) % 2 == 1:
             cscore += 1
         else:

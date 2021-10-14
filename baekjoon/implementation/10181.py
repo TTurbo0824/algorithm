@@ -12,8 +12,8 @@ while True:
     for d in range(1, n):
         if n % d == 0:
             divisor.append(d)
-            
+
     if n == sum(divisor):
-        print(f'{n} = ' + ' + '.join(map(str, divisor)))
+        print(f"{n} = " + " + ".join(map(str, divisor)))
     else:
-        print(f'{n} is NOT perfect.')
+        print(f"{n} is NOT perfect.")

@@ -9,7 +9,7 @@ time = []
 for i in range(n):
     time.append(list(map(int, sys.stdin.readline().split())))
 
-time = sorted(time, key=lambda  x: (x[1], x[0]))
+time = sorted(time, key=lambda x: (x[1], x[0]))
 num = 1
 
 end_time = time[0][1]

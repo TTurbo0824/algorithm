@@ -3,13 +3,14 @@
 
 from itertools import product
 import sys
+
 input = sys.stdin.readline
 
 n, m = map(int, input().split())
 
-p = product(range(1, n + 1), repeat = m)
+p = product(range(1, n + 1), repeat=m)
 
 for i in p:
     for j in i:
-        print(j, end = ' ')
-    print(end='\n')
+        print(j, end=" ")
+    print(end="\n")

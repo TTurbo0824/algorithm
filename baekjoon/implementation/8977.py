@@ -15,13 +15,13 @@ for i in range(k):
     r = b % n
     if r + i - 1 >= n:
         r = (r + i) % n - i
-    answer += nums[r+i-1]
+    answer += nums[r + i - 1]
 
 print(answer)
 
 # Solution 2
 
-'''
+"""
 def main():
     n, k, b = map(int, input().split())
     nums = list(map(int, input().split()))
@@ -37,4 +37,4 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
-'''
+"""

@@ -10,6 +10,6 @@ for i in range(n):
         answer = False
         print("something is fishy")
         break
-    
+
 if answer == True:
     print("makes sense")

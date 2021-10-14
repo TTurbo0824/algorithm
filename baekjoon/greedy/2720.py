@@ -1,4 +1,4 @@
-# 백준 온라인 저지 2720번: 세탁소 사장 동혁 
+# 백준 온라인 저지 2720번: 세탁소 사장 동혁
 # https://www.acmicpc.net/problem/2720
 
 import sys
@@ -15,4 +15,4 @@ for _ in range(int(input())):
             ans[coins.index(coin)] = change // coin
             change %= coin
 
-    print(*ans, sep=' ')
+    print(*ans, sep=" ")

@@ -12,19 +12,19 @@ while True:
 
     line = sys.stdin.readline().strip()
     arr = []
-    
+
     for i in range(len(line) // n):
         if not i % 2:
-            arr.append(line[i * n:i * n + n])
+            arr.append(line[i * n : i * n + n])
         else:
-            arr.append(line[i * n:i * n + n][::-1])
+            arr.append(line[i * n : i * n + n][::-1])
 
-    print(*map(lambda x: ''.join(x), zip(*arr)), sep='')
+    print(*map(lambda x: "".join(x), zip(*arr)), sep="")
 
 
 # Solution 2
 
-'''
+"""
 while True:
     n = int(sys.stdin.readline())
     
@@ -48,4 +48,4 @@ while True:
             if k < len(arr[j]):
                 answer += arr[j][k]
     print(answer)
-'''
+"""

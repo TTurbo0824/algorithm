@@ -13,4 +13,4 @@ for _ in range(int(input())):
     for person in guests:
         if guests.count(person) == 1:
             count += 1
-            print('Case #%d: %d' %(count, person))
+            print("Case #%d: %d" % (count, person))

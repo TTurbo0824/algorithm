@@ -11,7 +11,7 @@ answer = []
 for t in range(int(input())):
     plate = input().strip()
     isMatching = True
-    
+
     for c, p in zip(code, plate):
         if c != "*" and c != p:
             isMatching = False
@@ -19,6 +19,6 @@ for t in range(int(input())):
 
     if isMatching == True:
         answer.append(plate)
-        
+
 print(len(answer))
 print(*answer, sep="\n")

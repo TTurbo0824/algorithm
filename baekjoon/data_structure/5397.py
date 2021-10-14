@@ -7,18 +7,18 @@ for _ in range(n):
     left = []
     right = []
     cmd = input()
-    
+
     for i in cmd:
-        if i == '<':
+        if i == "<":
             if left:
                 right.append(left.pop())
-        elif i == '>':
+        elif i == ">":
             if right:
                 left.append(right.pop())
-        elif i == '-':
+        elif i == "-":
             if left:
                 left.pop()
         else:
             left.append(i)
     left.extend(reversed(right))
-    print(''.join(left))
+    print("".join(left))
