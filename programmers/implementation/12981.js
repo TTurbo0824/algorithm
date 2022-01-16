@@ -8,12 +8,7 @@ function solution(n, words) {
   const newArr = [start];
 
   for (let i = 1; i < words.length; i++) {
-    if (words[i][0] !== start[start.length - 1]) {
-      answer[0] = (i + 1) % n || n;
-      if (answer[0] === n) answer[1] = parseInt((i + 1) / n);
-      else answer[1] = parseInt((i + 1) / n) + 1;
-      break;
-    } else if (newArr.includes(words[i])) {
+    if (words[i][0] !== start[start.length - 1] || newArr.includes(words[i])) {
       answer[0] = (i + 1) % n || n;
       if (answer[0] === n) answer[1] = parseInt((i + 1) / n);
       else answer[1] = parseInt((i + 1) / n) + 1;
