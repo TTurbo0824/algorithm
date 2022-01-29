@@ -8,8 +8,8 @@ function solution(A) {
     numCnt[A[i]]++;
   }
 
-  console.log(numCnt);
   let answer = [];
+
   for (let i = 0; i < arrLength; i++) {
     let divisors = 0;
     for (let j = 1; j <= A[i] ** 0.5; j++) {
